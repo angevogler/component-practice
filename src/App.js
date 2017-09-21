@@ -17,7 +17,7 @@ class App extends Component {
           <h2>Starbar</h2>
           <StarBar />
           <h2>Dropdown Menu</h2>
-          <DropDown />
+          <DropDown name='File'/>
           <h2>NavBar</h2>
           <NavBar />
         </div>

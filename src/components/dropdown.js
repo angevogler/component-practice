@@ -27,7 +27,7 @@ class DropDown extends Component {
 
     return (
       <div>
-      <p onClick={ () => this.toggleMenu()}>File</p>
+      <p onClick={ () => this.toggleMenu()}>{this.props.name}</p>
         <ul>
           <DropDownItem active={this.state.menuActive} name='New'/>
           <DropDownItem active={this.state.menuActive} name='Save'/>
